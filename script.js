@@ -8,7 +8,7 @@ function insert(num) {
 }
 
 function equals() {
-  const texts = document.querySelector(".textview")
+  const texts = dom()
       const len = texts.value.length
       
       if(texts.value.includes("+")){
